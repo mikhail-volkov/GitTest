@@ -13,3 +13,7 @@ function mult(...arg) {
 
     return mul
 }
+
+function sub(a, b) {
+    return a ** b
+}
