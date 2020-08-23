@@ -7,6 +7,7 @@ function sum(...arg) {
 }
 
 function diff(...arg) {
+    console.log(acc)
     const dif = arg.reduce((acc, item) => {
         return acc + -item
     }, 0)
