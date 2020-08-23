@@ -5,3 +5,11 @@ function sum(...arg) {
 
     return summ
 }
+
+function mult(...arg) {
+    const mul = arg.reduce((acc, item) => {
+        return acc * item
+    }, 1)
+
+    return mul
+}
