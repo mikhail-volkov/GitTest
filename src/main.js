@@ -4,3 +4,5 @@ console.log(mult(1, 2, 3))
 console.log(mult(10, 20, 40))
 
 console.log(sub(2, 3))
+
+console.log(del(10, 2))
